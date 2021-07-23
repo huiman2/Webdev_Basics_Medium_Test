@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/8eb22af867.js" crossorigin="anonymous"></script>
+        <script src="myscripts.js"></script>
+        <script src='https://www.google.com/recaptcha/api.js'></script>
+    </head>
+    <body>
+        <!-- Nav -->
+        <ul class="nav bg-dark text-uppercase fixed-top justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link active text-light lead" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light lead" href="#collection">Collection</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light lead" href="#aboutus">About us</a>
+            </li>
+            <li class="nav-item-static">
+                <a class="nav-link text-light lead" href="#contactus">Contact</a>
+            </li>
+        </ul>
+
+        <!-- Parallax 1 -->
+        <div class="box1" id="home">
+            <img src="images/logo_white.png" alt="logo white">
+            <div class="container-1">
+                <div class="circle-1 bg-light rounded-circle mr-3"><i class="fab fa-facebook-f"></i></div>
+                <div class="circle-2 bg-light rounded-circle"><i class="fab fa-pinterest"></i></div>
+                <div class="circle-3 bg-light rounded-circle ml-3"><i class="fab fa-instagram"></i></div>
+            </div>
+        </div>
+
+        <!-- Greeting Card -->
+        <div class="container-2">
+            <div class="jumbotron rounded-0 text-dark">
+                <h1>Shop our collection</h1>
+                <hr>
+                <p>we pride ourselves in selecting and filtering out <br>only the best quality product</p>
+            </div>
+        </div>
+
+        <!-- Shopping Row 1 -->
+        <div class="initial card-group justify-content-center text-light text-center" id="collection">
+            <div class="card-left bg-dark">
+                <div class="container-3">
+                    <a href="https://www.thehighclub.biz/shop/on-sale/sale-flower/blueberry-cheesecake-aaa/" target="_blank">
+                        <img class="card-img-top rounded-0" src="Images/blueberry-cheesecake.jpg" alt="Card image cap">
+                    </a>
+                    <div class="overlay">
+                        <div class="text text-uppercase text-dark">Available in more options</div>
+                    </div>
+                </div>
+                <div class="card-body mt-2 mb-4">
+                    <p class="card-text">Blueberry Cheesecake AAA+</p>
+                    <p>$140.00 per ounce<i class="fas ml-2 fa-shopping-cart"></i></p>
+                    <br>
+                    <a href="https://www.thehighclub.biz/shop/on-sale/sale-flower/blueberry-cheesecake-aaa/" target="_blank" class="button">Buy now</a>
+                </div>
+            </div>
+            <div class="card-center bg-dark">
+                <div class="container-3">
+                    <a href="https://www.thehighclub.biz/shop/on-sale/sale-flower/cake-pop-aaaa/" target="_blank">
+                        <img class="card-img-top rounded-0" src="Images/cake-pop-scaled.jpg" alt="Card image cap">
+                    </a>
+                    <div class="overlay">
+                        <div class="text text-uppercase text-dark">Available in more options</div>
+                    </div>
+                </div>
+                <div class="card-body mt-2 mb-4">
+                    <p class="card-text">Cake Pop AAAA</p>
+                    <p>$180.00 per ounce<i class="fas ml-2 fa-shopping-cart"></i></p>
+                    <br>
+                    <a href="https://www.thehighclub.biz/shop/on-sale/sale-flower/cake-pop-aaaa/" target="_blank" class="button">Buy now</a>
+                </div>
+            </div>
+            <div class="card-right bg-dark">
+                <div class="container-3">
+                    <a href="https://www.thehighclub.biz/shop/on-sale/sale-flower/candy-land-aaa/" target="_blank">
+                        <img class="card-img-top rounded-0" src="Images/candyland-scaled.jpg" alt="Card image cap">
+                    </a>
+                    <div class="overlay">
+                        <div class="text text-uppercase text-dark">Available in more options</div>
+                    </div>
+                </div>
+                <div class="card-body mt-2 mb-4">
+                    <p class="card-text">Candy Land AAA+</p>
+                    <p>$140.00 per ounce<i class="fas ml-2 fa-shopping-cart"></i></p>
+                    <br>
+                    <a href="https://www.thehighclub.biz/shop/on-sale/sale-flower/candy-land-aaa/" target="_blank" class="button">Buy now</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Shopping Row 2 -->
+        <div class="card-group justify-content-center text-light text-center">
+            <div class="card-left bg-dark">
+                <div class="container-3">
+                    <a href="https://www.thehighclub.biz/shop/on-sale/sale-flower/death-bubba-aaa-2/" target="_blank">
+                        <img class="card-img-top rounded-0" src="Images/death-bubb-scaled.jpg" alt="Card image cap">
+                    </a>
+                    <div class="overlay">
+                        <div class="text text-uppercase text-dark">Available in more options</div>
+                    </div>
+                </div>
+                <div class="card-body mt-2 mb-4">
+                    <p class="card-text">Death Bubba AAA+</p>
+                    <p>View price on online store</p>
+                    <br>
+                    <a href="https://www.thehighclub.biz/shop/on-sale/sale-flower/death-bubba-aaa-2/" target="_blank" class="button">Buy now</a>
+                </div>
+            </div>
+            <div class="card-center bg-dark">
+                <div class="container-3">
+                    <a href="https://www.thehighclub.biz/shop/on-sale/sale-flower/gelato-aaa-3/" target="_blank">
+                        <img class="card-img-top rounded-0" src="Images/gelato-scaled.jpg" alt="Card image cap">
+                    </a>
+                    <div class="overlay">
+                        <div class="text text-uppercase text-dark">Available in more options</div>
+                    </div>
+                </div>
+                <div class="card-body mt-2 mb-4">
+                    <p class="card-text">Gelato AAA+</p>
+                    <p>$140.00 per ounce<i class="fas ml-2 fa-shopping-cart"></i></p>
+                    <br>
+                    <a href="https://www.thehighclub.biz/shop/on-sale/sale-flower/gelato-aaa-3/" target="_blank" class="button">Buy now</a>
+                </div>
+            </div>
+            <div class="card-right bg-dark">
+                <div class="container-3">
+                    <a href="https://www.thehighclub.biz/shop/on-sale/sale-flower/gods-green-crack-aaa/" target="_blank">
+                        <img class="card-img-top rounded-0" src="Images/ggc.jpg" alt="Card image cap">
+                    </a>
+                    <div class="overlay">
+                        <div class="text text-uppercase text-dark">Available in more options</div>
+                    </div>
+                </div>
+                <div class="card-body mt-2 mb-4">
+                    <p class="card-text">God's Green Crack AAA+</p>
+                    <p>View price on online store</p>
+                    <br>
+                    <a href="https://www.thehighclub.biz/shop/on-sale/sale-flower/gods-green-crack-aaa/" target="_blank" class="button">Buy now</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Shopping Row 3 -->
+        <div class="card-group justify-content-center text-light text-center">
+            <div class="card-left bg-dark">
+                <div class="container-3">
+                    <a href="https://www.thehighclub.biz/shop/on-sale/sale-flower/macflurry/" target="_blank">
+                        <img class="card-img-top rounded-0" src="Images/mcflurry.jpg" alt="Card image cap">
+                    </a>
+                    <div class="overlay">
+                        <div class="text text-uppercase text-dark">Available in more options</div>
+                    </div>
+                </div>
+                <div class="card-body mt-2 mb-4">
+                    <p class="card-text">Mcflurry AAAA</p>
+                    <p>View price on online store</p>
+                    <br>
+                    <a href="https://www.thehighclub.biz/shop/on-sale/sale-flower/macflurry/" target="_blank" class="button">Buy now</a>
+                </div>
+            </div>
+            <div class="card-center bg-dark">
+                <div class="container-3">
+                    <a href="https://www.thehighclub.biz/shop/on-sale/sale-flower/ice-cream-aaaa/" target="_blank">
+                        <img class="card-img-top rounded-0" src="Images/ice-cream.jpg" alt="Card image cap">
+                    </a>
+                    <div class="overlay">
+                        <div class="text text-uppercase text-dark">Available in more options</div>
+                    </div>
+                </div>
+                <div class="card-body mt-2 mb-4">
+                    <p class="card-text">Ice Cream AAAA</p>
+                    <p>View price on online store</p>
+                    <br>
+                    <a href="https://www.thehighclub.biz/shop/on-sale/sale-flower/ice-cream-aaaa/" target="_blank" class="button">Buy now</a>
+                </div>
+            </div>
+            <div class="card-right bg-dark">
+                <div class="container-3">
+                    <a href="https://www.thehighclub.biz/shop/on-sale/sale-flower/jagermeister-aaaa/" target="_blank">
+                        <img class="card-img-top rounded-0" src="Images/jagermeister.jpg" alt="Card image cap">
+                    </a>
+                    <div class="overlay">
+                        <div class="text text-uppercase text-dark">Available in more options</div>
+                    </div>
+                </div>
+                <div class="card-body mt-2 mb-4">
+                    <p class="card-text">Jagermeister AAA+</p>
+                    <p>View price on online store</p>
+                    <br>
+                    <a href="https://www.thehighclub.biz/shop/on-sale/sale-flower/jagermeister-aaaa/" target="_blank" class="button">Buy now</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Shopping Row 4 -->
+        <div class="card-group justify-content-center text-light text-center">
+            <div class="card-left bg-dark">
+                <div class="container-3">
+                    <a href="https://www.thehighclub.biz/shop/flowers/aaaa/banana-kush-aaa/" target="_blank">
+                        <img class="card-img-top rounded-0" src="Images/Banana-kush.jpg" alt="Card image cap">
+                    </a>
+                    <div class="overlay">
+                        <div class="text text-uppercase text-dark">Available in more options</div>
+                    </div>
+                </div>
+                <div class="card-body mt-2 mb-4">
+                    <p class="card-text">Banana Kush AAA+</p>
+                    <p>View price on online store</p>
+                    <br>
+                    <a href="https://www.thehighclub.biz/shop/flowers/aaaa/banana-kush-aaa/" target="_blank" class="button">Buy now</a>
+                </div>
+            </div>
+            <div class="card-center bg-dark">
+                <div class="container-3">
+                    <a href="https://www.thehighclub.biz/shop/flowers/aaa1/wedding-cake-aaa/" target="_blank">
+                        <img class="card-img-top rounded-0" src="Images/wedding-cake.jpg" alt="Card image cap">
+                    </a>
+                    <div class="overlay">
+                        <div class="text text-uppercase text-dark">Available in more options</div>
+                    </div>
+                </div>
+                <div class="card-body mt-2 mb-4">
+                    <p class="card-text">Wedding Cake AAA+</p>
+                    <p>View price on online store</p>
+                    <br>
+                    <a href="https://www.thehighclub.biz/shop/flowers/aaa1/wedding-cake-aaa/" target="_blank" class="button">Buy now</a>
+                </div>
+            </div>
+            <div class="card-right bg-dark">
+                <div class="container-3">
+                    <a href="https://www.thehighclub.biz/shop/on-sale/sale-flower/sundae-driver-aaa/" target="_blank">
+                        <img class="card-img-top rounded-0" src="Images/sundae-driver.jpg" alt="Card image cap">
+                    </a>
+                    <div class="overlay">
+                        <div class="text text-uppercase text-dark">Available in more options</div>
+                    </div>
+                </div>
+                <div class="card-body mt-2 mb-4">
+                    <p class="card-text">Sundae Driver AAA+</p>
+                    <p>View price on online store</p>
+                    <br>
+                    <a href="https://www.thehighclub.biz/shop/on-sale/sale-flower/sundae-driver-aaa/" target="_blank" class="button">Buy now</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Shopping Row 5 -->
+        <div class="card-group justify-content-center text-light text-center">
+            <div class="card-left bg-dark">
+                <div class="container-3">
+                    <a href="https://www.thehighclub.biz/shop/flowers/aaa/romulan-aaa/" target="_blank">
+                        <img class="card-img-top rounded-0" src="Images/romulan.jpg" alt="Card image cap">
+                    </a>
+                    <div class="overlay">
+                        <div class="text text-uppercase text-dark">Available in more options</div>
+                    </div>
+                </div>
+                <div class="card-body mt-2 mb-4">
+                    <p class="card-text">Romulan AAA</p>
+                    <p>View price on online store</p>
+                    <br>
+                    <a href="https://www.thehighclub.biz/shop/flowers/aaa/romulan-aaa/" target="_blank" class="button">Buy now</a>
+                </div>
+            </div>
+            <div class="card-center bg-dark">
+                <div class="container-3">
+                    <a href="https://www.thehighclub.biz/shop/flowers/aaa/girl-scout-cookies-aaa/" target="_blank">
+                        <img class="card-img-top rounded-0" src="Images/gsc-aaa.jpg" alt="Card image cap">
+                    </a>
+                    <div class="overlay">
+                        <div class="text text-uppercase text-dark">Available in more options</div>
+                    </div>
+                </div>
+                <div class="card-body mt-2 mb-4">
+                    <p class="card-text">Girl Scout Cookies AAA</p>
+                    <p>$100.00 per ounce<i class="fas ml-2 fa-shopping-cart"></i></p>
+                    <br>
+                    <a href="https://www.thehighclub.biz/shop/flowers/aaa/girl-scout-cookies-aaa/" target="_blank" class="button">Buy now</a>
+                </div>
+            </div>
+            <div class="card-right bg-dark">
+                <div class="container-3">
+                    <a href="https://www.thehighclub.biz/shop/on-sale/sale-flower/hawaiian-snow-aaaa/" target="_blank">
+                        <img class="card-img-top rounded-0" src="Images/hawaiian-snow.jpg" alt="Card image cap">
+                    </a>
+                    <div class="overlay">
+                        <div class="text text-uppercase text-dark">Available in more options</div>
+                    </div>
+                </div>
+                <div class="card-body mt-2 mb-4">
+                    <p class="card-text">Hawaiian Snow AAAA</p>
+                    <p>View price on online store</p>
+                    <br>
+                    <a href="https://www.thehighclub.biz/shop/on-sale/sale-flower/hawaiian-snow-aaaa/" target="_blank" class="button">Buy now</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Shopping Row 6 -->
+        <div class="card-group justify-content-center text-light text-center">
+            <div class="card-left bg-dark">
+                <div class="container-3">
+                    <a href="https://www.thehighclub.biz/shop/on-sale/sale-flower/slurricane-aaaa-3/" target="_blank">
+                        <img class="card-img-top rounded-0" src="Images/slurricane3-scaled.jpg" alt="Card image cap">
+                    </a>
+                    <div class="overlay">
+                        <div class="text text-uppercase text-dark">Available in more options</div>
+                    </div>
+                </div>
+                <div class="card-body mt-2 mb-4">
+                    <p class="card-text">Slurricane AAAA</p>
+                    <p>View price on online store</p>
+                    <br>
+                    <a href="https://www.thehighclub.biz/shop/on-sale/sale-flower/slurricane-aaaa-3/" target="_blank" class="button">Buy now</a>
+                </div>
+            </div>
+            <div class="card-center bg-dark">
+                <div class="container-3">
+                    <a href="https://www.thehighclub.biz/shop/on-sale/sale-flower/black-diamond-aaaa/" target="_blank">
+                        <img class="card-img-top rounded-0" src="Images/black-diamond-quads.jpg" alt="Card image cap">
+                    </a>
+                    <div class="overlay">
+                        <div class="text text-uppercase text-dark">Available in more options</div>
+                    </div>
+                </div>
+                <div class="card-body mt-2 mb-4">
+                    <p class="card-text">Black Diamond AAAA</p>
+                    <p>$140.00 per ounce<i class="fas ml-2 fa-shopping-cart"></i></p>
+                    <br>
+                    <a href="https://www.thehighclub.biz/shop/on-sale/sale-flower/black-diamond-aaaa/" target="_blank" class="button">Buy now</a>
+                </div>
+            </div>
+            <div class="card-right bg-dark">
+                <div class="container-3">
+                    <a href="https://www.thehighclub.biz/shop/on-sale/sale-flower/slyme-cookies-aaaa/" target="_blank">
+                        <img class="card-img-top rounded-0" src="Images/slyme-cookies.jpg" alt="Card image cap">
+                    </a>
+                    <div class="overlay">
+                        <div class="text text-uppercase text-dark">Available in more options</div>
+                    </div>
+                </div>
+                <div class="card-body mt-2 mb-4">
+                    <p class="card-text">Slyme Cookies AAAA</p>
+                    <p>$180.00 per ounce<i class="fas ml-2 fa-shopping-cart"></i></p>
+                    <br>
+                    <a href="https://www.thehighclub.biz/shop/on-sale/sale-flower/slyme-cookies-aaaa/" target="_blank" class="button">Buy now</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Shopping Row 7 -->
+        <div class="card-group justify-content-center text-light text-center">
+            <div class="card-left bg-dark">
+                <div class="container-3">
+                    <a href="https://www.thehighclub.biz/shop/on-sale/sale-flower/sour-headband-aaaa/" target="_blank">
+                        <img class="card-img-top rounded-0" src="Images/sour-headband-scaled.jpg" alt="Card image cap">
+                    </a>
+                    <div class="overlay">
+                        <div class="text text-uppercase text-dark">Available in more options</div>
+                    </div>
+                </div>
+                <div class="card-body mt-2 mb-4">
+                    <p class="card-text">Sour Headband AAAA</p>
+                    <p>$170.00 per ounce<i class="fas ml-2 fa-shopping-cart"></i></p>
+                    <br>
+                    <a href="https://www.thehighclub.biz/shop/on-sale/sale-flower/sour-headband-aaaa/" target="_blank" class="button">Buy now</a>
+                </div>
+            </div>
+            <div class="card-center bg-dark">
+                <div class="container-3">
+                    <a href="https://www.thehighclub.biz/shop/on-sale/sale-flower/tom-ford-x-pink-kush-aaa-2/" target="_blank">
+                        <img class="card-img-top rounded-0" src="Images/tf-x-pk-scaled.jpg" alt="Card image cap">
+                    </a>
+                    <div class="overlay">
+                        <div class="text text-uppercase text-dark">Available in more options</div>
+                    </div>
+                </div>
+                <div class="card-body mt-2 mb-4">
+                    <p class="card-text">Tom Ford x Pink Kush AAA+</p>
+                    <p>$140.00 per ounce<i class="fas ml-2 fa-shopping-cart"></i></p>
+                    <br>
+                    <a href="https://www.thehighclub.biz/shop/on-sale/sale-flower/tom-ford-x-pink-kush-aaa-2/" target="_blank" class="button">Buy now</a>
+                </div>
+            </div>
+            <div class="card-right bg-dark">
+                <div class="container-3">
+                    <a href="https://www.thehighclub.biz/shop/on-sale/sale-flower/secret-recipe-aaaa/" target="_blank">
+                        <img class="card-img-top rounded-0" src="Images/secret-recipe.jpg" alt="Card image cap">
+                    </a>
+                    <div class="overlay">
+                        <div class="text text-uppercase text-dark">Available in more options</div>
+                    </div>
+                </div>
+                <div class="card-body mt-2 mb-4">
+                    <p class="card-text">Secret Recipe AAAA</p>
+                    <p>$160.00 per ounce<i class="fas ml-2 fa-shopping-cart"></i></p>
+                    <br>
+                    <a href="https://www.thehighclub.biz/shop/on-sale/sale-flower/secret-recipe-aaaa/" target="_blank" class="button">Buy now</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Shopping Row 8 -->
+        <div class="card-group justify-content-center text-light text-center">
+            <div class="card-left bg-dark">
+                <div class="container-3">
+                    <a href="https://www.thehighclub.biz/shop/on-sale/sale-flower/red-dwarf-aaa-2/" target="_blank">
+                        <img class="card-img-top rounded-0" src="Images/red-dwarf.jpg" alt="Card image cap">
+                    </a>
+                    <div class="overlay">
+                        <div class="text text-uppercase text-dark">Available in more options</div>
+                    </div>
+                </div>
+                <div class="card-body mt-2 mb-4">
+                    <p class="card-text">Red Drawf AAA</p>
+                    <p>View price on online store</p>
+                    <br>
+                    <a href="https://www.thehighclub.biz/shop/on-sale/sale-flower/red-dwarf-aaa-2/" target="_blank" class="button">Buy now</a>
+                </div>
+            </div>
+            <div class="card-center bg-dark">
+                <div class="container-3">
+                    <a href="https://www.thehighclub.biz/shop/on-sale/sale-flower/pineapple-express-aaa-2/" target="_blank">
+                        <img class="card-img-top rounded-0" src="Images/pineapple-express.jpg" alt="Card image cap">
+                    </a>
+                    <div class="overlay">
+                        <div class="text text-uppercase text-dark">Available in more options</div>
+                    </div>
+                </div>
+                <div class="card-body mt-2 mb-4">
+                    <p class="card-text">Pineapple Express AAA+</p>
+                    <p>$140.00 per ounce<i class="fas ml-2 fa-shopping-cart"></i></p>
+                    <br>
+                    <a href="https://www.thehighclub.biz/shop/on-sale/sale-flower/pineapple-express-aaa-2/" target="_blank" class="button">Buy now</a>
+                </div>
+            </div>
+            <div class="card-right bg-dark">
+                <div class="container-3">
+                    <a href="https://www.thehighclub.biz/shop/on-sale/sale-flower/lemon-skunk-aaa-2/" target="_blank">
+                        <img class="card-img-top rounded-0" src="Images/lemon-skunk-scaled.jpg" alt="Card image cap">
+                    </a>
+                    <div class="overlay">
+                        <div class="text text-uppercase text-dark">Available in more options</div>
+                    </div>
+                </div>
+                <div class="card-body mt-2 mb-4">
+                    <p class="card-text">Lemon Skunk AAA+</p>
+                    <p>$120.00 per ounce<i class="fas ml-2 fa-shopping-cart"></i></p>
+                    <br>
+                    <a href="https://www.thehighclub.biz/shop/on-sale/sale-flower/lemon-skunk-aaa-2/" target="_blank" class="button">Buy now</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Shopping Row 9 -->
+        <div class="card-group justify-content-center text-light text-center">
+            <div class="card-left bg-dark">
+                <div class="container-3">
+                    <a href="https://www.thehighclub.biz/shop/on-sale/sale-flower/mimosa-aaaa-3/" target="_blank">
+                        <img class="card-img-top rounded-0" src="Images/mimosa-scaled.jpg" alt="Card image cap">
+                    </a>
+                    <div class="overlay">
+                        <div class="text text-uppercase text-dark">Available in more options</div>
+                    </div>
+                </div>
+                <div class="card-body mt-2 mb-4">
+                    <p class="card-text">Mimosa AAAA</p>
+                    <p>View price on online store</p>
+                    <br>
+                    <a href="https://www.thehighclub.biz/shop/on-sale/sale-flower/mimosa-aaaa-3/" target="_blank" class="button">Buy now</a>
+                </div>
+            </div>
+            <div class="card-center bg-dark">
+                <div class="container-3">
+                    <a href="https://www.thehighclub.biz/shop/on-sale/sale-flower/orange-peel-aaa/" target="_blank">
+                        <img class="card-img-top rounded-0" src="Images/orange-peel-scaled.jpg" alt="Card image cap">
+                    </a>
+                    <div class="overlay">
+                        <div class="text text-uppercase text-dark">Available in more options</div>
+                    </div>
+                </div>
+                <div class="card-body mt-2 mb-4">
+                    <p class="card-text">Organe Peel AAA+</p>
+                    <p>$120.00 per ounce<i class="fas ml-2 fa-shopping-cart"></i></p>
+                    <br>
+                    <a href="https://www.thehighclub.biz/shop/on-sale/sale-flower/orange-peel-aaa/" target="_blank" class="button">Buy now</a>
+                </div>
+            </div>
+            <div class="card-right bg-dark">
+                <div class="container-3">
+                    <a href="https://www.thehighclub.biz/shop/on-sale/sale-flower/cookies-cream-aaa/" target="_blank">
+                        <img class="card-img-top rounded-0" src="Images/cnc-scaled.jpg" alt="Card image cap">
+                    </a>
+                    <div class="overlay">
+                        <div class="text text-uppercase text-dark">Available in more options</div>
+                    </div>
+                </div>
+                <div class="card-body mt-2 mb-4">
+                    <p class="card-text">Cookies & Cream AAA+</p>
+                    <p>$130.00 per ounce<i class="fas ml-2 fa-shopping-cart"></i></p>
+                    <br>
+                    <a href="https://www.thehighclub.biz/shop/on-sale/sale-flower/cookies-cream-aaa/" target="_blank" class="button">Buy now</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Shopping Row 10 -->
+        <div class="card-group justify-content-center text-light text-center">
+            <div class="card-left bg-dark">
+                <div class="container-3">
+                    <a href="https://www.thehighclub.biz/shop/on-sale/sale-flower/high-school-sweetheart-aaaa-2/" target="_blank">
+                        <img class="card-img-top rounded-0" src="Images/hssh-1-scaled.jpg" alt="Card image cap">
+                    </a>
+                    <div class="overlay">
+                        <div class="text text-uppercase text-dark">Available in more options</div>
+                    </div>
+                </div>
+                <div class="card-body mt-2 mb-4">
+                    <p class="card-text">High School Sweetheart AAAA</p>
+                    <p>$180.00 per ounce<i class="fas ml-2 fa-shopping-cart"></i></p>
+                    <br>
+                    <a href="https://www.thehighclub.biz/shop/on-sale/sale-flower/high-school-sweetheart-aaaa-2/" target="_blank" class="button">Buy now</a>
+                </div>
+            </div>
+            <div class="card-center bg-dark">
+                <div class="container-3">
+                    <a href="https://www.thehighclub.biz/shop/flowers/aaaa/high-school-sweetheart-aaaa-shake/" target="_blank">
+                        <img class="card-img-top rounded-0" src="Images/hssh-shake-scaled.jpg" alt="Card image cap">
+                    </a>
+                    <div class="overlay">
+                        <div class="text text-uppercase text-dark">Available in more options</div>
+                    </div>
+                </div>
+                <div class="card-body mt-2 mb-4">
+                    <p class="card-text">High School Sweetheart AAAA Shake</p>
+                    <p>View price on online store</p>
+                    <br>
+                    <a href="https://www.thehighclub.biz/shop/flowers/aaaa/high-school-sweetheart-aaaa-shake/" target="_blank" class="button">Buy now</a>
+                </div>
+            </div>
+            <div class="card-right bg-dark">
+                <div class="container-3">
+                    <a href="https://www.thehighclub.biz/shop/flowers/aaaa/pink-kush-shake-trim-aaaa/" target="_blank">
+                        <img class="card-img-top rounded-0" src="Images/pink-shake-scaled.jpg" alt="Card image cap">
+                    </a>
+                    <div class="overlay">
+                        <div class="text text-uppercase text-dark">Available in more options</div>
+                    </div>
+                </div>
+                <div class="card-body mt-2 mb-4">
+                    <p class="card-text">Pink Kush Shake & Trim AAAA</p>
+                    <p>View price on online store</p>
+                    <br>
+                    <a href="https://www.thehighclub.biz/shop/flowers/aaaa/pink-kush-shake-trim-aaaa/" target="_blank" class="button">Buy now</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Parallax 2 -->
+        
+        <div class="container-4" id="aboutus">
+            <video  autoplay muted loop src="images/DSC_4993.mp4"></video>
+            <div class="jumbotron-2 jumbotron rounded-0 text-dark bg-light">
+                <h1>About Us</h1>
+                <hr>
+                <p>We undergo strict processes to source our cannabis. We purchase directly from growers who are licensed under Health Canada, to ensure a certain level of quality.<br><br> We inspect every grow operation to ensure their environment is of the highest standards. This includes the inspection of grow medium, the types of nutrients used and ensuring no use of pesticides and PGRs.</p>
+            </div>
+        </div>
+
+        <!-- Extras -->
+        
+        <div class="extras card-group justify-content-center text-light text-center">
+            <div class="card-left bg-white">
+                <div class="container-3">
+                        <img class="card-img-top rounded-0" src="Images/1upshroombar.jpg" alt="Card image cap">
+                </div>
+                <div class="card-body pt-0">
+                    <p class="card-text text-dark lead">Shroom Krispy Bars</p>
+                </div>
+            </div>
+            <div class="card-center bg-white">
+                <div class="container-3">
+                    <a href="https://www.thehighclub.biz/shop/flowers/aaaa/high-school-sweetheart-aaaa-shake/" target="_blank">
+                        <img class="card-img-top rounded-0" src="Images/nummybears.png" alt="Card image cap">
+                    </a>
+                </div>
+                <div class="card-body pt-0">
+                    <p class="card-text text-dark lead">THC Gummies</p>
+                </div>
+            </div>
+            <div class="card-right bg-white">
+                <div class="container-3">
+                    <a href="https://www.thehighclub.biz/shop/flowers/aaaa/pink-kush-shake-trim-aaaa/" target="_blank">
+                        <img class="card-img-top rounded-0" src="Images/Green-Tech-Extractions-Budder-1.jpg" alt="Card image cap">
+                    </a>
+                </div>
+                <div class="card-body pt-0">
+                    <p class="card-text text-dark lead">THC Budders</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Form -->
+
+        <div class="container-5 bg-dark" id="contactus">
+            <div class="row">
+                <div class="mx-auto">
+                    <div class="card px-5 rounded-0 bg-light">
+                        <div class="card-body text-center text-dark">
+                            <h1 class="card-title mb-1">Contact Us</h1>
+                            <h3>support@thehighclub.biz</h3>
+                            <hr>
+                            <form action="form-signin">
+                                <div class="row">
+                                    <div class="col input">
+                                        <input type="text" class="form-control border-bottom-0" placeholder="First Name" aria-label="First Name">
+                                    </div>
+                                    <div class="col input">
+                                        <input type="text" class="form-control border-left-0 border-bottom-0" placeholder="Last Name" aria-label="Last Name">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col input">
+                                        <input type="email" class="form-control" placeholder="Email" aria-label="Email" required autofocus>
+                                    </div>
+                                    <div class="col input">
+                                        <input type="text" class="form-control border-left-0" placeholder="Order#" aria-label="Order#">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <textarea  type="text" class="textarea form-control border-top-0" placeholder="Type your message here..." rows="3"></textarea>
+                                </div>
+                                <div class="row pb-4">
+                                    <div class="g-recaptcha" data-sitekey="6Ldbdg0TAAAAAI7KAf72Q6uagbWzWecTeBWmrCpJ"></div>
+                                    <button class="btn btn-dark rounded-0 col-4 p-0 mt-4">Submit</button>
+                                    <!-- <button type="submit" class="btn btn-dark rounded-0 mt-5 col-4">Submit</button> -->
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+
+        <div class="box2">
+            <div class="container-6">
+                <div class="circle-1 bg-light rounded-circle mr-3"><i class="fab fa-facebook-f"></i></div>
+                <div class="circle-2 bg-light rounded-circle"><i class="fab fa-pinterest"></i></div>
+                <div class="circle-3 bg-light rounded-circle ml-3"><i class="fab fa-instagram"></i></div>
+            </div>
+            <p class="text-center mt-2">2021 Created By Tom Hui</p>
+        </div>
+
+    </body>
+</html>

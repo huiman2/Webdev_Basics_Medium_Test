@@ -1,0 +1,378 @@
+/* Nav */
+
+.nav {
+    padding-top: 14px;
+    padding-bottom: 14px;
+    text-align: center;
+    position: fixed;
+}
+
+.nav-link {
+    font-size: 90%;
+    transition: 0.3s;
+}
+
+.nav-item {
+    margin-right: 90px;
+}
+
+@media screen and (max-width: 700px) {
+    .nav-item {margin-right: 0;}
+}
+
+html {
+    scroll-behavior: smooth;
+    /* nav bar covers initial content even with padding-top */
+    scroll-padding-top: 65px;
+}
+
+/* Parallax 1 */
+
+.box1 {
+    padding-top: 10.5em;
+    padding-bottom: 2.5em;
+    background-image: url("Images/parallax1.jpg");
+    opacity: 0.75;
+    height: 100%;
+    width: auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box1 img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container-1 {
+    display: flex;
+    justify-content:center;
+    padding-top: 57.5em;
+}
+
+.container-1 div {
+    height: 40px;
+    width: 40px;
+}
+
+.fa-facebook-f {
+    font-size: 25px;
+    padding-left: 11.2px;
+    padding-top: 7px;
+}
+
+.fa-pinterest {
+    font-size: 25px;
+    padding-left: 9px;
+    padding-top: 7px;
+}
+
+.fa-instagram {
+    font-size: 25px;
+    padding-left: 9.4px;
+    padding-top: 7px;
+}
+
+/* Greeting Card */
+
+.container-2 {
+    max-width: 100%;
+}
+
+.jumbotron {
+    padding-top: 35px;
+    padding-bottom: 25px;
+    margin-top: 35px;
+    margin-bottom: 0px;
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.jumbotron  h1 {
+    font-size: 35px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 350;
+    letter-spacing: 1.75px;
+}
+
+.jumbotron p {
+    text-align: center;
+    font-size: 20px;
+}
+
+.jumbotron hr {
+    height:2px; 
+    background-color:#343a40; 
+    width: 8.5%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+/* Shop */
+
+.initial {
+    margin-top: 35px;
+}
+
+.card-left, .card-center, .card-right {
+    width: 282px;
+}
+
+.card-left {
+    margin-right: 35px;
+    border-radius: 0px;
+}
+
+.card-right {
+    margin-left: 35px;
+}
+
+.card-group {
+    margin-bottom: 35px;
+}
+
+.button {
+    background-color: #343a40;
+    border: 1px solid #f8f9fa;
+    padding: 8px 80px;
+    color: #f8f9fa;
+}
+
+.button:hover {
+    border: 3px solid #f8f9fa;
+    color: #f8f9fa;
+    text-decoration: none;
+}
+
+
+.container-3 {
+    position: relative;
+}
+
+.img-card-top {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #f8f9fa;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: all .5s ease-out;
+  }
+
+.container-3:hover > .overlay {
+    height: 22%
+}
+
+/* HOLY SHIT, use one hover to trigger another element in separate div */
+.container-3:hover ~  .card-body .button{
+    border: 3px solid #f8f9fa;
+    color: #f8f9fa;
+    text-decoration: none;
+}
+
+.text {
+    font-size: 13px;
+    position: relative;
+    font-weight: 500;
+    letter-spacing: 2px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+/* Parallax 2 */
+
+.container-4 {
+    position: relative;
+    width: 100%;
+    height: 53vh;
+    /* Whole container restricted to a set height, but when there is overflow, it will be hidden and height will be maintained */
+    overflow: hidden;
+    margin-top: 65px;
+}
+
+.container-4 video {
+    position: relative;
+    width: 100%;
+}
+
+.jumbotron-2 {
+    padding-top: 62px;
+    padding-left: 100px;
+    padding-right: 100px;
+    /* centering for absolue positioning */
+    position: absolute;
+    max-width: 660px;
+    height: 520px;
+    left: 50%;
+    margin-left: -330px;
+    top: 50%;
+    margin-top: -260px;
+}
+
+.container-4 hr{
+    height:2px; 
+    background-color:#343a40; 
+    width: 8.5%;
+    margin-top: 25px;
+    margin-bottom: 35px;
+}
+
+/* Extras */
+
+.extras {
+    margin-top: 92px;
+    margin-bottom: 120px;
+}
+
+.extras .card-left, .extras .card-center, .extras .card-right {
+    width: 275px;
+    height: 275px;
+    -webkit-box-shadow: 1px 1px 6px -1px rgba(0,0,0,0.57); 
+    box-shadow: 1px 1px 6px -1px rgba(0,0,0,0.57);
+}
+
+.extras .card-left {
+    margin-right: 82px;
+}
+
+.extras .card-right {
+    margin-left: 82px;
+}
+
+.extras .card-img-top {
+    height: 200px;
+    width: auto;
+    cursor: pointer;
+}
+
+.extras .card-img-top:hover {
+    opacity: 0;
+    transition: 0.5s
+}
+
+/* Form */
+
+.card {
+    margin-top: 36px;
+    margin-bottom: 32px;
+    width: 660px;
+}
+
+.input {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+textarea {
+    resize: none;
+}
+
+.form-control {
+    border-radius: 0;
+    border-color: black;
+    border-width: 2px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 25px;
+    font-style: italic;
+}
+
+.card-body h1 {
+    font-size: 35px;
+    text-align: center;
+    font-weight: 350;
+    letter-spacing: 1.2px;
+}
+
+.card-body h3 {
+    font-size: 22px;
+    text-align: center;
+    font-weight: 250;
+}
+
+.textarea {
+    padding-top: 10px;
+    padding-bottom: 58px;
+}
+
+.card hr {
+    height:2px; 
+    background-color:#343a40; 
+    width: 8.5%;
+    margin-top: 26px;
+    margin-bottom: 35px;
+}
+
+.btn {
+    margin-bottom: 20px;
+}
+
+/* reCAPTCHA */
+
+.g-recaptcha {
+    transform:scale(0.77);
+    -webkit-transform:scale(0.77);
+    transform-origin:0 0;
+    -webkit-transform-origin:0 25px;
+    margin-top: 15px;
+    margin-right: 60px;
+}
+
+/* Getting rid of annoying blue highligh when form is selected */
+
+textarea:hover, 
+input:hover, 
+textarea:active, 
+input:active, 
+textarea:focus, 
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active
+{
+    outline:0px !important;
+    -webkit-appearance:none;
+    box-shadow: none !important;
+}
+
+.form-control:focus{
+    border-color: black;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+/* Footer */
+
+.box2 {
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.box2 p {
+    font-size: small;
+}
+
+.container-6 {
+    display: flex;
+    justify-content:center;
+}
